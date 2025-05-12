@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(9600);
   dht11.begin(); // initialize the sensor
 }
-
+  
 void loop() {
   // wait a few seconds between measurements.
   delay(2000);
