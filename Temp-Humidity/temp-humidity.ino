@@ -18,7 +18,7 @@ void loop() {
   float tempC = dht11.readTemperature();
   // read temperature as Fahrenheit
   float tempF = dht11.readTemperature(true);
-
+  
   // check if any reads failed
   if (isnan(humi) || isnan(tempC) || isnan(tempF)) {
     Serial.println("Failed to read from DHT11 sensor!");
