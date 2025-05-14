@@ -12,7 +12,7 @@ This project is a Smart Home Monitoring System designed to automate and optimize
 
 The project is organized into the following folders:
 
-- **Automated Blinds**
+- **Automated Blinds** 
   - Contains Arduino code responsible for controlling the blinds.
   - Includes various algorithms and flowcharts to illustrate the logic and operation of the system.
 
